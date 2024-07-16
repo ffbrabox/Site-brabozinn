@@ -1,0 +1,132 @@
+/*----------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+header {
+  background-color: blue;
+  padding: 20px;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+nav ul li {
+  display: inline-block;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+/*----------------------------------*/
+
+
+/*----------------------------------*/
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+/*----------------------------------*/
+
+/*----------------------------------*/
+form .form-group {
+  margin-bottom: 20px;
+}
+/*----------------------------------*/
+form label,
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+}
+/*----------------------------------*/
+
+
+
+/*----------------------------------*/
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/*----------------------------------*/
+
+
+
+
+/*---------------[texto na imagem]-------------------*/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 101%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1); /* Cor e opacidade do fundo do texto */
+  z-index: 1;
+}
+
+.text-overlay h2 {
+  color: #fff; /* Cor do texto */
+  font-size: 20px; /* Tamanho do texto */
+  text-align: center;
+  padding: 12px; /* texto cima e texto do lado para colocar o texto do lado basta mudar para 12px */
+}
+/*----------------------------------*/
